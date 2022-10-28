@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relLayout"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textoIntentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/IntentosRes"
+
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/textbase"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textCantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignRight="@+id/textoIntentos"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_marginRight="@dimen/margenIntentos"
+        android:text="@string/NumeroInt"
+        android:textSize="@dimen/textbase" />
+
+    <TextView
+        android:id="@+id/textPista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/Texto"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:textSize="@dimen/textbase"
+
+
+        />
+
+    <EditText
+        android:id="@+id/numero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textbase"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_above="@+id/botonComparacion"
+        />
+
+    <Button
+        android:id="@+id/botonComparacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:text="@string/btnText"
+        android:textSize="@dimen/textbase"
+
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Adivna el numero</string>
+    <string name="IntentosRes">Intentos restantes:</string>
+    <string name="NumeroInt">5</string>
+    <string name="Texto">Debes adivina el número secreto entre 1 y 100.Tienes 5 intentos.</string>
+    <string name="btnText">Prueba este numero</string>
+    <string name="termAcierto">Juego Terminado</string>
+    <string name="NumeroMayor">El numero introducido es mayor al secreto</string>
+    <string name="NumeroMenor">El numero introducido es menor que el secreto</string>
+</resources>
